@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./script.js"></script>
+    <title>document</title>
+</head>
+<body>
+    <form>
+        <p> Name </p>
+        <input type="text" id ="name">    
+        </input>
+        <p> Account No  </p>
+        <input type="text" id="account no">
+        </input>
+        <p>Amount</p>
+        <input type="text" id="amount">
+        </input>
+        <p>Bank</p>
+        <input type="text" id="Bank">
+        </input>
+
+
+
+    </form>
+    <h1>JavaScript Strings</h1>
+    <h2>The slice() Method</h2>
+    
+    <p>The sliced (extracted) part of the string is:</p>
+    <p id = "demo"></p>
+    
+    <script>
+        let text = "Apple, Banana, Kiwi ";
+        let part = text.slice(7, 19);
+        document.getElementById("demo").innerHTML = part; 
+
+    </script>
+</body>
+</html>
